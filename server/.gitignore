@@ -1,16 +1,29 @@
-.buildpath
+# 编辑器配置
+.vscode/
 .settings/
 .project
-*.patch
 .idea/
-.git/
-runtime/
-vendor/
-.phpintel/
-.env
 .DS_Store
-.phpunit*
-*.cache
-.vscode/
-/phpstan.neon
-/phpunit.xml
+.history
+
+# git 
+.git/
+.github/
+
+# 前端包
+node_modules/
+
+# 后端包
+vendor/
+
+# 缓存文件
+runtime/
+
+# 配置
+.env
+
+# 日志
+
+# 附件
+
+# 备份
