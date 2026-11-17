@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad0aa0ccb366ae19450b309c8f7cfb1e",
+    "content-hash": "c26ff8b0d3b4faf754c8a580bf97006a",
     "packages": [
         {
             "name": "brick/math",
@@ -3417,6 +3417,72 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "funding": [
+                {
+                    "url": "https://hyperf.wiki/#/zh-cn/donate",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/hyperf",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2026-06-07T09:04:32+00:00"
+        },
+        {
+            "name": "hyperf/translation",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/translation.git",
+                "reference": "7ea6a08d76c616ed4d7b38d6aab6e80af0346bd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/translation/zipball/7ea6a08d76c616ed4d7b38d6aab6e80af0346bd0",
+                "reference": "7ea6a08d76c616ed4d7b38d6aab6e80af0346bd0",
+                "shasum": ""
+            },
+            "require": {
+                "hyperf/collection": "~3.2.0",
+                "hyperf/context": "~3.2.0",
+                "hyperf/contract": "~3.2.0",
+                "hyperf/macroable": "~3.2.0",
+                "hyperf/stringable": "~3.2.0",
+                "hyperf/support": "~3.2.0",
+                "php": ">=8.2",
+                "psr/container": "^1.0 || ^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "hyperf": {
+                    "config": "Hyperf\\Translation\\ConfigProvider"
+                },
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Functions.php"
+                ],
+                "psr-4": {
+                    "Hyperf\\Translation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "An independent translation component, forked by illuminate/translation.",
+            "keywords": [
+                "hyperf",
+                "translation"
+            ],
+            "support": {
+                "issues": "https://github.com/hyperf/translation/issues",
+                "source": "https://github.com/hyperf/translation/tree/v3.2.0"
             },
             "funding": [
                 {

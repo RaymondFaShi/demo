@@ -1,5 +1,12 @@
 <?php
 declare( strict_types = 1 );
-namespace App\Controller;
+namespace App\Controller\Test;
 
-class Controller {}
+class Index {
+
+    public function __construct() {}
+
+    public function Index() {
+        
+    }
+}
